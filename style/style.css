@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-Menu{
+    height: 209px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid gray;
+    background-color: #D5FFFF;
+    width: -webkit-fil-available;
+    justify-content: space-between;
+}
+
+.container-Letreiro{
+    font-size: 50px;
+    font-family: "Lilita One", sans-serif;
+    color: white;
+    margin: 10px;
+    -webkit-text-stroke: 0.5px black;
+}
+.container-WorkMint{
+    margin-left: 50px;
+}
+
+.container-WorkMint > img{
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.TextoBotao{
+    gap: 190px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.botoes>button{
+    width: 152px;
+    height: 46px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #5DC1B9;
+}.botoes > button:active{
+    background-color: #51a7a0;
+}
+
