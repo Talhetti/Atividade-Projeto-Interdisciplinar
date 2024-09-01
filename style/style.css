@@ -37,6 +37,7 @@
     width: 160px;
     height: 140px;
     margin: 10px;
+    border-radius: 10px;
     border: 1px solid black;
 }
 .TextoBotao{
@@ -58,11 +59,10 @@
 
 /*---CABEÇALHO---*/
 
-.container-CorpoSite1, .container-CorpoSite2, .container-CorpoSite3 {
-    width: -webkit-fill-available;
-    margin: 60px 80px 60px 80px;
+.container-CorpoSite1 {
     height: 500px;
-    /* background-color: red; */
+    width: -webkit-fill-available;
+    margin: 60px 80px 0px 80px;
     border-bottom: 2px solid black;
 }
 .container-CorpoSite1 > p{
@@ -70,24 +70,74 @@
     text-align: center;
     font-family: "Istok Web", sans-serif;
 }
-
 .container-LivrosInicial{
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
     gap: 50px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
 }
-
 .container-LivrosInicial > a >img {
-    margin-top: 20px;
     width: 237px;
     height: 355px;
     cursor: pointer;
+    margin-top: 20px;
 }.container-LivrosInicial > a > img:hover{
     width: 245px;
     height: 365px;
+    border: 0.5px solid black;
+}
+/*Fim da Primeira parte do site*/
+
+.container-CorpoSite2{
+    height: 150px;
+    text-align: center;
+    margin: 40px 80px 60px 80px;
+    border-bottom: 2px solid black;
+    font-family: "Istok Web", sans-serif;
+}.container-CorpoSite2 > button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #FF9900;
+}.container-CorpoSite2 > button:hover{
+    background-color: #d17e00;
+}
+/*Fim da segunda parte*/
+
+.container-CorpoSite3{
+    height: 170px;
+    margin: 40px 80px 60px 80px;
+    width: -webkit-fil-available;
+    font-family: "Istok Web", sans-serif;
+}
+.containerRotina{
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
+.bloco1{
+    display: flex;
+    width: 453px;
+    align-items: center;
+    height: 160px;
+    border-right:1px solid black;
+}.bloco1 > img{
+    height: 85px;
+    width: 78px;
+}
+
+.bloco2{
+    display: flex;
+    width: 453px;
+    height: 160px;
+    align-items: center;
+}
 
 /*---FOOTER---*/
 footer{
