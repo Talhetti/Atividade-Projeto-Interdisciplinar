@@ -30,7 +30,6 @@
 /*---CABEÇALHO---*/
 .container-registro{
     width: -webkit-fil-available;
-    height: 383px;
     margin: 25px 40px 20px 40px;
 }
 .containerTitulo{
@@ -81,6 +80,12 @@
 
 /*---FOOTER---*/
 footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+
+    margin-top: auto;
     height: 54px;
     display: flex;
     text-align: center;
