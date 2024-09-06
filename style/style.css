@@ -82,10 +82,9 @@
     cursor: pointer;
     margin-top: 20px;
 }.container-LivrosInicial > a > img:hover{
-    width: 245px;
-    height: 365px;
-    border: 0.5px solid black;
+    transform: scale(1.1);
 }
+
 /*Fim da Primeira parte do site*/
 
 .container-CorpoSite2{
