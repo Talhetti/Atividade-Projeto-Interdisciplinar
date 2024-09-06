@@ -60,7 +60,7 @@ body {
     height: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
-    background-color: red;
+    border-bottom: 1px solid black;
 }
 
 .titulo{
@@ -83,12 +83,12 @@ ul > li{
     height: 300px;
 }
 
-
-
-
-
-
-
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 70px;
+    background-color: #D5FFFF;
+}
 /* FOOOOOOOOOOOOOOOOOTER*/
 .footer-fixado {
     text-align: center;
