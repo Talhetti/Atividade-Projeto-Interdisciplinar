@@ -127,6 +127,11 @@
     color: black; /* Cor do texto ao clicar */
 }
 
+.selected {
+    background-color: #4CAF50; /* Cor verde para indicar seleção */
+    color: white;
+}
+
 /*---FOOTER---*/
 .footer-fixado {
     text-align: center;
