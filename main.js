@@ -1,9 +1,3 @@
-
-
-function verificarSenha(){
-    
-}
-
 function verificarCamposVazios() {
     var inputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='password']");
     var erro = false;
@@ -24,4 +18,4 @@ function verificarCamposVazios() {
         window.location.href = "perguntas.html";
         return true; // Permite a ação do botão
     }
-}   
+}

@@ -140,11 +140,22 @@
 }
 
 /*---FOOTER---*/
+.footer-fixado {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 footer{
+    margin-top: auto;
     height: 54px;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background-color: #8fd4ce;
+    border-top: 1px solid gray;
+    background-color: #D5FFFF;
 }

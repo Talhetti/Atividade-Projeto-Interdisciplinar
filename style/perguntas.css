@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Istok Web", sans-serif;
+}
+
+.container-Menu{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5FFFF;
+    width: -webkit-fil-available;
+    border-bottom: 3px solid gray;
+}
+
+.container-WorkMint{
+    display: flex;
+    background-size: cover;
+}
+.container-WorkMint > img{
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+/*---CABEÇALHO---*/
+
+.containerEntrevista h1{
+    color: #000;
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.containerPerguntas{
+    margin: 0px 20vh 0px 20vh;
+    font-size: 15px;
+}
+
+.primeiraPergunta {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.primeiraPergunta > input, .terceiraPergunta > input{
+    width: 200px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #dedede;
+}
+
+.segundaPergunta {
+    width: 500px;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.container-botao {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center; /* Adicionado para centralizar horizontalmente */
+    align-items: center; /* Adicionado para centralizar verticalmente */
+}
+
+.traco{
+    width: 1px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.botao1, .botao2 {
+    width: 100px;
+    height: 20px;
+    display: flex; 
+    cursor: pointer;
+    align-items: center; 
+    justify-content: center;
+    background-color: #cff9f9;
+}
+
+.terceiraPergunta {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.botao{
+    margin: 20px 0px 20px 0px;
+}
+.botao > button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #D5FFFF;
+}button:hover{
+    background-color: #cff9f9;
+    color: white;
+}
+
+/*---FOOTER---*/
+.footer-fixado {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer{
+    margin-top: auto;
+    height: 54px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid gray;
+    background-color: #D5FFFF;
+}
